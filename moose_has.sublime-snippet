@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+has ${1:name} => (
+    is => '${2:ro}',
+    isa => ${3:Any},
+);
+${4}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mhas</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
